@@ -1,5 +1,4 @@
 /*
-Name : Gaurav Gorane SC0A10
 Problem Statement :Company maintains employee information as employee ID, name,
  designation and salary. Allow user to add, delete information of employee. 
  Display information of particular employee. If employee does not exist an appropriate 
