@@ -108,3 +108,24 @@ int main()
 
     return 0;
 }
+/*
+Here is an algorithm for Morris Traversal:
+
+Initialize the current node as the root.
+While the current node is not NULL:
+If the current node does not have a left child:
+Print the current node's value.
+Move to the right child.
+If the current node has a left child:
+Find the rightmost node in the left subtree of the current node.
+If the rightmost node's right child is NULL:
+Set the right child to the current node.
+Move to the left child.
+If the rightmost node's right child is the current node:
+Reset the right child to NULL (restoring the original tree structure).
+Print the current node's value.
+Move to the right child.
+
+The time complexity of Morris Traversal is O(n).
+The space complexity of Morris Traversal is O(1)
+*/
